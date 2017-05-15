@@ -1,0 +1,44 @@
+.newButton{
+    text-align: center;
+    margin-left:15px;
+    margin-right: 15px;
+}
+.bg{
+    background-color:rebeccapurple;
+    margin: 0px;
+    padding: 0px;
+}
+.well {
+    /*background: rgb(22, 105, 173);*/
+}
+  .fromGroup{
+margin-left: 15px;
+margin-right: 15px;
+  }
+
+  .alert{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.rootLayout{
+  text-align: center;
+}
+.navbar{
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.TitleStyle{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    background-repeat: repeat-x;
+    border-radius: 0px;
+    min-height: 50px;
+    text-align: center;
+    color: #c3c2c2;
+}
+h2{
+    margin: 0px;
+}

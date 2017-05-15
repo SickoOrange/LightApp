@@ -1,0 +1,23 @@
+{
+  "name": "lights-ui-framework",
+  "version": "0.0.1",
+  "description": "Nextap dashboard for lights",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-transition-group": "^15.5.2",
+    "reactstrap": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/nextap/lights-ui-framework.git"
+  },
+  "author": "nextap solutions s.r.o.",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nextap/lights-ui-framework#readme"
+}

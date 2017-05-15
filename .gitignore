@@ -1,0 +1,12 @@
+src/configurations/enviroment
+src/configurations/config.local.json
+src/client/node_modules/*
+logs/*
+reports/*
+node_modules/*
+src/node_modules/*
+.vscode/*
+/npm-debug.log
+src/public/js/client.min.js
+src/client/configurations/config.local.json
+.idea/*

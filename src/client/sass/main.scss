@@ -1,0 +1,17 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "/components/light";
+
+body {
+    height:100%;
+    background-color: #F4F4F4;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.navbar{
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}

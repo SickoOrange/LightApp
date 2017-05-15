@@ -1,0 +1,78 @@
+{
+    "enviroment": "prod",
+    "prod": {
+        "config": {
+            "version": "0.0.1",
+            "local_address": "localhost",
+            "port": 3020,
+            "isHttps": false,
+            "sslConfig": null,
+            "get_url_i_am_alive": "",
+            "interval_i_am_alive_ms": "60000"
+        },
+        "app": {
+            "version": "0.0.1",
+            "appname": "Light-app",
+            "apptitle": "",
+            "company_address": "",
+            "socket": {
+                "client": {
+                    "port": 10000,
+                    "type": "lights",
+                    "host": "http://localhost"
+                }
+            },
+            "phpApi": "http://private-4f736-phplights.apiary-mock.com/"
+        }
+    },
+    "stage": {
+        "config": {
+            "version": "0.0.1",
+            "local_address": "localhost",
+            "port": 3020,
+            "isHttps": false,
+            "sslConfig": null,
+            "get_url_i_am_alive": "",
+            "interval_i_am_alive_ms": "60000"
+        },
+        "app": {
+            "version": "0.0.1",
+            "appname": "Light-app",
+            "apptitle": "",
+            "company_address": "",
+            "socket": {
+                "client": {
+                    "port": 8888,
+                    "type": "lights",
+                    "host": "http://localhost"
+                }
+            },
+            "phpApi": "http://private-4f736-phplights.apiary-mock.com/"
+        }
+    },
+    "dev": {
+        "config": {
+            "version": "0.0.1",
+            "local_address": "localhost",
+            "port": 3020,
+            "isHttps": false,
+            "sslConfig": null,
+            "get_url_i_am_alive": "",
+            "interval_i_am_alive_ms": "60000"
+        },
+        "app": {
+            "version": "0.0.1",
+            "appname": "Light-app",
+            "apptitle": "",
+            "company_address": "",
+            "socket": {
+                "client": {
+                    "port": 8888,
+                    "type": "lights",
+                    "host": "http://localhost"
+                }
+            },
+            "phpApi": "http://private-4f736-phplights.apiary-mock.com/"
+        }
+    }
+}

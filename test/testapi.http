@@ -1,0 +1,10 @@
+POST http://192.168.90.57:6777/hook/api HTTP/1.1
+content-type: application/json
+
+{  
+        "command": "group_assign",
+        "packageLength": "05",
+        "groupid": "03",
+        "mode": "00",
+        "id": "10"
+}

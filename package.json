@@ -1,0 +1,40 @@
+{
+  "name": "lights-app",
+  "version": "0.0.1",
+  "description": "For correct download of the nextap-base-utility you must set up ssh key fot the bitbucket.",
+  "main": "src/app.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "forever": "0.15.2",
+    "fs": "^0.0.2",
+    "moment": "^2.11.2",
+    "nextap-base-utility": "git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "request": "^2.74.0",
+    "serve-index": "^1.7.3",
+    "serve-static": "^1.10.2",
+    "socket.io-client": "^1.4.8",
+    "strftime": "^0.9.2",
+    "socketmodule": "git+ssh://git@bitbucket.org/nextap/socketmodule.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-dev": "node src/app.js",
+    "server-start": "node ./startServer.js",
+    "server-stop": "node ./stopServer.js",
+    "client-build": "cd ./src/client/ && npm install && webpack --minify",
+    "client-dev": "cd ./src/client/ && webpack-dev-server --content-base ../public/ --inline --hot --host localhost --port 8080",
+    "update-restart": "node update-and-restart.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/nextap/lights-ui-framework.git"
+  },
+  "author": "nextap solutions s.r.o.",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nextap/lights-ui-framework#readme"
+}
