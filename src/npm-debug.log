@@ -1,0 +1,1104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'moment' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData moment@^2.11.2
+8 silly fetchNamedPackageData moment
+9 silly mapToRegistry name moment
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'moment',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'moment',
+12 silly mapToRegistry   name: 'moment',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/moment
+14 verbose request uri https://registry.npmjs.org/moment
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:29:27
+17 verbose request id dcf013a99674c328
+18 verbose etag W/"58f4a396-1be01"
+19 verbose lastModified Mon, 17 Apr 2017 11:14:30 GMT
+20 http request GET https://registry.npmjs.org/moment
+21 http 200 https://registry.npmjs.org/moment
+22 verbose headers { server: 'nginx/1.10.1',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'last-modified': 'Tue, 18 Apr 2017 09:58:35 GMT',
+22 verbose headers   etag: 'W/"58f5e34b-1be12"',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'content-length': '12502',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Tue, 18 Apr 2017 14:29:27 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '295',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '8',
+22 verbose headers   'x-timer': 'S1492525768.674208,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.1',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Tue, 18 Apr 2017 09:58:35 GMT',
+23 silly get     etag: 'W/"58f5e34b-1be12"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '12502',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Tue, 18 Apr 2017 14:29:27 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '295',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-hhn1530-HHN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '8',
+23 silly get     'x-timer': 'S1492525768.674208,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose get saving moment to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+25 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule moment@2.18.1 checking installable status
+39 silly cache add args [ 'moment@^2.11.2', null ]
+40 verbose cache add spec moment@^2.11.2
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'moment@^2.11.2',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'moment',
+41 silly cache add   name: 'moment',
+41 silly cache add   rawSpec: '^2.11.2',
+41 silly cache add   spec: '>=2.11.2 <3.0.0',
+41 silly cache add   type: 'range' }
+42 silly addNamed moment@>=2.11.2 <3.0.0
+43 verbose addNamed ">=2.11.2 <3.0.0" is a valid semver range for moment
+44 silly addNameRange { name: 'moment', range: '>=2.11.2 <3.0.0', hasData: false }
+45 silly mapToRegistry name moment
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'moment',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'moment',
+48 silly mapToRegistry   name: 'moment',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/moment
+50 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+51 verbose get https://registry.npmjs.org/moment not expired, no request
+52 silly addNameRange number 2 { name: 'moment', range: '>=2.11.2 <3.0.0', hasData: true }
+53 silly addNameRange versions [ 'moment',
+53 silly addNameRange   [ '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.1.0',
+53 silly addNameRange     '1.1.1',
+53 silly addNameRange     '1.2.0',
+53 silly addNameRange     '1.3.0',
+53 silly addNameRange     '1.4.0',
+53 silly addNameRange     '1.5.0',
+53 silly addNameRange     '1.5.1',
+53 silly addNameRange     '1.6.0',
+53 silly addNameRange     '1.6.1',
+53 silly addNameRange     '1.6.2',
+53 silly addNameRange     '1.7.0',
+53 silly addNameRange     '1.7.1',
+53 silly addNameRange     '1.7.2',
+53 silly addNameRange     '2.0.0',
+53 silly addNameRange     '2.1.0',
+53 silly addNameRange     '2.2.1',
+53 silly addNameRange     '2.3.0',
+53 silly addNameRange     '2.3.1',
+53 silly addNameRange     '2.4.0',
+53 silly addNameRange     '2.5.0',
+53 silly addNameRange     '2.5.1',
+53 silly addNameRange     '2.6.0',
+53 silly addNameRange     '2.7.0',
+53 silly addNameRange     '2.8.1',
+53 silly addNameRange     '2.8.2',
+53 silly addNameRange     '2.8.3',
+53 silly addNameRange     '2.8.4',
+53 silly addNameRange     '2.9.0',
+53 silly addNameRange     '2.10.2',
+53 silly addNameRange     '2.10.3',
+53 silly addNameRange     '2.10.5',
+53 silly addNameRange     '2.10.6',
+53 silly addNameRange     '2.11.0',
+53 silly addNameRange     '2.11.1',
+53 silly addNameRange     '2.11.2',
+53 silly addNameRange     '2.12.0',
+53 silly addNameRange     '2.13.0',
+53 silly addNameRange     '2.14.0',
+53 silly addNameRange     '2.14.1',
+53 silly addNameRange     '2.15.0',
+53 silly addNameRange     '2.15.1',
+53 silly addNameRange     '2.15.2',
+53 silly addNameRange     '2.16.0',
+53 silly addNameRange     '2.17.0',
+53 silly addNameRange     '2.17.1',
+53 silly addNameRange     '2.18.0',
+53 silly addNameRange     '2.18.1' ] ]
+54 silly addNamed moment@2.18.1
+55 verbose addNamed "2.18.1" is a plain semver version for moment
+56 silly cache afterAdd moment@2.18.1
+57 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\moment\2.18.1\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\moment\2.18.1\package\package.json written
+60 silly fetchNamedPackageData mkdirp
+61 silly mapToRegistry name mkdirp
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'mkdirp',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'mkdirp',
+64 silly mapToRegistry   name: 'mkdirp',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+66 silly fetchNamedPackageData passport-strategy
+67 silly mapToRegistry name passport-strategy
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'passport-strategy',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'passport-strategy',
+70 silly mapToRegistry   name: 'passport-strategy',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/passport-strategy
+72 silly fetchNamedPackageData promise
+73 silly mapToRegistry name promise
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'promise',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'promise',
+76 silly mapToRegistry   name: 'promise',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/promise
+78 verbose request uri https://registry.npmjs.org/mkdirp
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 16:29:28
+81 verbose etag W/"58f2dd2a-6323"
+82 verbose lastModified Sun, 16 Apr 2017 02:55:38 GMT
+83 http request GET https://registry.npmjs.org/mkdirp
+84 verbose request uri https://registry.npmjs.org/passport-strategy
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 16:29:28
+87 verbose etag W/"51facaba-14b2"
+88 verbose lastModified Thu, 01 Aug 2013 20:53:14 GMT
+89 http request GET https://registry.npmjs.org/passport-strategy
+90 verbose request uri https://registry.npmjs.org/promise
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 16:29:28
+93 verbose etag W/"58f1dbb5-89ea"
+94 verbose lastModified Sat, 15 Apr 2017 08:37:09 GMT
+95 http request GET https://registry.npmjs.org/promise
+96 http 304 https://registry.npmjs.org/mkdirp
+97 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+97 verbose headers   via: '1.1 varnish',
+97 verbose headers   'cache-control': 'max-age=300',
+97 verbose headers   etag: 'W/"58f2dd2a-6323"',
+97 verbose headers   age: '137',
+97 verbose headers   connection: 'keep-alive',
+97 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+97 verbose headers   'x-cache': 'HIT',
+97 verbose headers   'x-cache-hits': '15',
+97 verbose headers   'x-timer': 'S1492525768.117190,VS0,VE0',
+97 verbose headers   vary: 'Accept-Encoding' }
+98 silly get cb [ 304,
+98 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+98 silly get     via: '1.1 varnish',
+98 silly get     'cache-control': 'max-age=300',
+98 silly get     etag: 'W/"58f2dd2a-6323"',
+98 silly get     age: '137',
+98 silly get     connection: 'keep-alive',
+98 silly get     'x-served-by': 'cache-hhn1530-HHN',
+98 silly get     'x-cache': 'HIT',
+98 silly get     'x-cache-hits': '15',
+98 silly get     'x-timer': 'S1492525768.117190,VS0,VE0',
+98 silly get     vary: 'Accept-Encoding' } ]
+99 verbose etag https://registry.npmjs.org/mkdirp from cache
+100 verbose get saving mkdirp to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+101 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+102 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+103 silly cache add args [ 'mkdirp@^0.5.1', null ]
+104 verbose cache add spec mkdirp@^0.5.1
+105 silly cache add parsed spec Result {
+105 silly cache add   raw: 'mkdirp@^0.5.1',
+105 silly cache add   scope: null,
+105 silly cache add   escapedName: 'mkdirp',
+105 silly cache add   name: 'mkdirp',
+105 silly cache add   rawSpec: '^0.5.1',
+105 silly cache add   spec: '>=0.5.1 <0.6.0',
+105 silly cache add   type: 'range' }
+106 silly addNamed mkdirp@>=0.5.1 <0.6.0
+107 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for mkdirp
+108 silly addNameRange { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: false }
+109 silly mapToRegistry name mkdirp
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'mkdirp',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   escapedName: 'mkdirp',
+112 silly mapToRegistry   name: 'mkdirp',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+114 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+115 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+116 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.1 <0.6.0', hasData: true }
+117 silly addNameRange versions [ 'mkdirp',
+117 silly addNameRange   [ '0.0.1',
+117 silly addNameRange     '0.0.2',
+117 silly addNameRange     '0.0.3',
+117 silly addNameRange     '0.0.4',
+117 silly addNameRange     '0.0.5',
+117 silly addNameRange     '0.0.6',
+117 silly addNameRange     '0.0.7',
+117 silly addNameRange     '0.1.0',
+117 silly addNameRange     '0.2.0',
+117 silly addNameRange     '0.2.1',
+117 silly addNameRange     '0.2.2',
+117 silly addNameRange     '0.3.0',
+117 silly addNameRange     '0.3.1',
+117 silly addNameRange     '0.3.2',
+117 silly addNameRange     '0.3.3',
+117 silly addNameRange     '0.3.4',
+117 silly addNameRange     '0.3.5',
+117 silly addNameRange     '0.4.0',
+117 silly addNameRange     '0.4.1',
+117 silly addNameRange     '0.4.2',
+117 silly addNameRange     '0.5.0',
+117 silly addNameRange     '0.5.1' ] ]
+118 silly addNamed mkdirp@0.5.1
+119 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+120 silly cache afterAdd mkdirp@0.5.1
+121 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json not in flight; writing
+122 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+123 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\mkdirp\0.5.1\package\package.json written
+124 http 304 https://registry.npmjs.org/promise
+125 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+125 verbose headers   via: '1.1 varnish',
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   etag: 'W/"58f1dbb5-89ea"',
+125 verbose headers   age: '142',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'x-served-by': 'cache-hhn1529-HHN',
+125 verbose headers   'x-cache': 'HIT',
+125 verbose headers   'x-cache-hits': '4',
+125 verbose headers   'x-timer': 'S1492525768.167322,VS0,VE0',
+125 verbose headers   vary: 'Accept-Encoding' }
+126 silly get cb [ 304,
+126 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+126 silly get     via: '1.1 varnish',
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     etag: 'W/"58f1dbb5-89ea"',
+126 silly get     age: '142',
+126 silly get     connection: 'keep-alive',
+126 silly get     'x-served-by': 'cache-hhn1529-HHN',
+126 silly get     'x-cache': 'HIT',
+126 silly get     'x-cache-hits': '4',
+126 silly get     'x-timer': 'S1492525768.167322,VS0,VE0',
+126 silly get     vary: 'Accept-Encoding' } ]
+127 verbose etag https://registry.npmjs.org/promise from cache
+128 verbose get saving promise to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\promise\.cache.json
+129 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+130 http 304 https://registry.npmjs.org/passport-strategy
+131 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+131 verbose headers   via: '1.1 varnish',
+131 verbose headers   'cache-control': 'max-age=300',
+131 verbose headers   etag: 'W/"51facaba-14b2"',
+131 verbose headers   age: '81',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'x-served-by': 'cache-hhn1546-HHN',
+131 verbose headers   'x-cache': 'HIT',
+131 verbose headers   'x-cache-hits': '1',
+131 verbose headers   'x-timer': 'S1492525768.173750,VS0,VE1',
+131 verbose headers   vary: 'Accept-Encoding' }
+132 silly get cb [ 304,
+132 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     etag: 'W/"51facaba-14b2"',
+132 silly get     age: '81',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-hhn1546-HHN',
+132 silly get     'x-cache': 'HIT',
+132 silly get     'x-cache-hits': '1',
+132 silly get     'x-timer': 'S1492525768.173750,VS0,VE1',
+132 silly get     vary: 'Accept-Encoding' } ]
+133 verbose etag https://registry.npmjs.org/passport-strategy from cache
+134 verbose get saving passport-strategy to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\passport-strategy\.cache.json
+135 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+136 silly resolveWithNewModule promise@7.1.1 checking installable status
+137 silly cache add args [ 'promise@^7.1.1', null ]
+138 verbose cache add spec promise@^7.1.1
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'promise@^7.1.1',
+139 silly cache add   scope: null,
+139 silly cache add   escapedName: 'promise',
+139 silly cache add   name: 'promise',
+139 silly cache add   rawSpec: '^7.1.1',
+139 silly cache add   spec: '>=7.1.1 <8.0.0',
+139 silly cache add   type: 'range' }
+140 silly addNamed promise@>=7.1.1 <8.0.0
+141 verbose addNamed ">=7.1.1 <8.0.0" is a valid semver range for promise
+142 silly addNameRange { name: 'promise', range: '>=7.1.1 <8.0.0', hasData: false }
+143 silly mapToRegistry name promise
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'promise',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   escapedName: 'promise',
+146 silly mapToRegistry   name: 'promise',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/promise
+148 verbose addNameRange registry:https://registry.npmjs.org/promise not in flight; fetching
+149 verbose get https://registry.npmjs.org/promise not expired, no request
+150 silly addNameRange number 2 { name: 'promise', range: '>=7.1.1 <8.0.0', hasData: true }
+151 silly addNameRange versions [ 'promise',
+151 silly addNameRange   [ '1.2.1',
+151 silly addNameRange     '1.2.2',
+151 silly addNameRange     '1.3.0',
+151 silly addNameRange     '2.0.0',
+151 silly addNameRange     '3.0.0',
+151 silly addNameRange     '3.0.1',
+151 silly addNameRange     '3.1.0',
+151 silly addNameRange     '3.2.0',
+151 silly addNameRange     '4.0.0',
+151 silly addNameRange     '5.0.0',
+151 silly addNameRange     '6.0.0',
+151 silly addNameRange     '6.0.1',
+151 silly addNameRange     '6.1.0',
+151 silly addNameRange     '7.0.0',
+151 silly addNameRange     '7.0.1',
+151 silly addNameRange     '7.0.2',
+151 silly addNameRange     '7.0.3',
+151 silly addNameRange     '7.0.4',
+151 silly addNameRange     '7.1.0',
+151 silly addNameRange     '7.1.1' ] ]
+152 silly addNamed promise@7.1.1
+153 verbose addNamed "7.1.1" is a plain semver version for promise
+154 silly resolveWithNewModule passport-strategy@1.0.0 checking installable status
+155 silly cache add args [ 'passport-strategy@^1.0.0', null ]
+156 verbose cache add spec passport-strategy@^1.0.0
+157 silly cache add parsed spec Result {
+157 silly cache add   raw: 'passport-strategy@^1.0.0',
+157 silly cache add   scope: null,
+157 silly cache add   escapedName: 'passport-strategy',
+157 silly cache add   name: 'passport-strategy',
+157 silly cache add   rawSpec: '^1.0.0',
+157 silly cache add   spec: '>=1.0.0 <2.0.0',
+157 silly cache add   type: 'range' }
+158 silly addNamed passport-strategy@>=1.0.0 <2.0.0
+159 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for passport-strategy
+160 silly addNameRange { name: 'passport-strategy',
+160 silly addNameRange   range: '>=1.0.0 <2.0.0',
+160 silly addNameRange   hasData: false }
+161 silly mapToRegistry name passport-strategy
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'passport-strategy',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   escapedName: 'passport-strategy',
+164 silly mapToRegistry   name: 'passport-strategy',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri https://registry.npmjs.org/passport-strategy
+166 verbose addNameRange registry:https://registry.npmjs.org/passport-strategy not in flight; fetching
+167 verbose get https://registry.npmjs.org/passport-strategy not expired, no request
+168 silly addNameRange number 2 { name: 'passport-strategy',
+168 silly addNameRange   range: '>=1.0.0 <2.0.0',
+168 silly addNameRange   hasData: true }
+169 silly addNameRange versions [ 'passport-strategy', [ '1.0.0' ] ]
+170 silly addNamed passport-strategy@1.0.0
+171 verbose addNamed "1.0.0" is a plain semver version for passport-strategy
+172 silly cache afterAdd promise@7.1.1
+173 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\promise\7.1.1\package\package.json not in flight; writing
+174 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+175 silly cache afterAdd passport-strategy@1.0.0
+176 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\passport-strategy\1.0.0\package\package.json not in flight; writing
+177 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+178 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\promise\7.1.1\package\package.json written
+179 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\passport-strategy\1.0.0\package\package.json written
+180 silly fetchNamedPackageData minimist
+181 silly mapToRegistry name minimist
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'minimist',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'minimist',
+184 silly mapToRegistry   name: 'minimist',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/minimist
+186 verbose request uri https://registry.npmjs.org/minimist
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 16:29:28
+189 verbose etag W/"58f4195b-750a"
+190 verbose lastModified Mon, 17 Apr 2017 01:24:43 GMT
+191 http request GET https://registry.npmjs.org/minimist
+192 http 304 https://registry.npmjs.org/minimist
+193 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+193 verbose headers   via: '1.1 varnish',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   etag: 'W/"58f4195b-750a"',
+193 verbose headers   age: '168',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+193 verbose headers   'x-cache': 'HIT',
+193 verbose headers   'x-cache-hits': '26',
+193 verbose headers   'x-timer': 'S1492525768.299700,VS0,VE0',
+193 verbose headers   vary: 'Accept-Encoding' }
+194 silly get cb [ 304,
+194 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     etag: 'W/"58f4195b-750a"',
+194 silly get     age: '168',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-served-by': 'cache-hhn1530-HHN',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '26',
+194 silly get     'x-timer': 'S1492525768.299700,VS0,VE0',
+194 silly get     vary: 'Accept-Encoding' } ]
+195 verbose etag https://registry.npmjs.org/minimist from cache
+196 verbose get saving minimist to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\minimist\.cache.json
+197 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+198 silly resolveWithNewModule minimist@0.0.8 checking installable status
+199 silly cache add args [ 'minimist@0.0.8', null ]
+200 verbose cache add spec minimist@0.0.8
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'minimist@0.0.8',
+201 silly cache add   scope: null,
+201 silly cache add   escapedName: 'minimist',
+201 silly cache add   name: 'minimist',
+201 silly cache add   rawSpec: '0.0.8',
+201 silly cache add   spec: '0.0.8',
+201 silly cache add   type: 'version' }
+202 silly addNamed minimist@0.0.8
+203 verbose addNamed "0.0.8" is a plain semver version for minimist
+204 silly mapToRegistry name minimist
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry data Result {
+207 silly mapToRegistry   raw: 'minimist',
+207 silly mapToRegistry   scope: null,
+207 silly mapToRegistry   escapedName: 'minimist',
+207 silly mapToRegistry   name: 'minimist',
+207 silly mapToRegistry   rawSpec: '',
+207 silly mapToRegistry   spec: 'latest',
+207 silly mapToRegistry   type: 'tag' }
+208 silly mapToRegistry uri https://registry.npmjs.org/minimist
+209 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+210 verbose get https://registry.npmjs.org/minimist not expired, no request
+211 silly cache afterAdd minimist@0.0.8
+212 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\minimist\0.0.8\package\package.json not in flight; writing
+213 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\minimist\0.0.8\package\package.json written
+215 silly fetchNamedPackageData asap
+216 silly mapToRegistry name asap
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry data Result {
+219 silly mapToRegistry   raw: 'asap',
+219 silly mapToRegistry   scope: null,
+219 silly mapToRegistry   escapedName: 'asap',
+219 silly mapToRegistry   name: 'asap',
+219 silly mapToRegistry   rawSpec: '',
+219 silly mapToRegistry   spec: 'latest',
+219 silly mapToRegistry   type: 'tag' }
+220 silly mapToRegistry uri https://registry.npmjs.org/asap
+221 verbose request uri https://registry.npmjs.org/asap
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 16:29:28
+224 verbose etag W/"586d4ef4-64cb"
+225 verbose lastModified Wed, 04 Jan 2017 19:37:24 GMT
+226 http request GET https://registry.npmjs.org/asap
+227 http 304 https://registry.npmjs.org/asap
+228 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+228 verbose headers   via: '1.1 varnish',
+228 verbose headers   'cache-control': 'max-age=300',
+228 verbose headers   etag: 'W/"586d4ef4-64cb"',
+228 verbose headers   age: '188',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'x-served-by': 'cache-hhn1529-HHN',
+228 verbose headers   'x-cache': 'HIT',
+228 verbose headers   'x-cache-hits': '11',
+228 verbose headers   'x-timer': 'S1492525768.337694,VS0,VE0',
+228 verbose headers   vary: 'Accept-Encoding' }
+229 silly get cb [ 304,
+229 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+229 silly get     via: '1.1 varnish',
+229 silly get     'cache-control': 'max-age=300',
+229 silly get     etag: 'W/"586d4ef4-64cb"',
+229 silly get     age: '188',
+229 silly get     connection: 'keep-alive',
+229 silly get     'x-served-by': 'cache-hhn1529-HHN',
+229 silly get     'x-cache': 'HIT',
+229 silly get     'x-cache-hits': '11',
+229 silly get     'x-timer': 'S1492525768.337694,VS0,VE0',
+229 silly get     vary: 'Accept-Encoding' } ]
+230 verbose etag https://registry.npmjs.org/asap from cache
+231 verbose get saving asap to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\asap\.cache.json
+232 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+233 silly resolveWithNewModule asap@2.0.5 checking installable status
+234 silly cache add args [ 'asap@~2.0.3', null ]
+235 verbose cache add spec asap@~2.0.3
+236 silly cache add parsed spec Result {
+236 silly cache add   raw: 'asap@~2.0.3',
+236 silly cache add   scope: null,
+236 silly cache add   escapedName: 'asap',
+236 silly cache add   name: 'asap',
+236 silly cache add   rawSpec: '~2.0.3',
+236 silly cache add   spec: '>=2.0.3 <2.1.0',
+236 silly cache add   type: 'range' }
+237 silly addNamed asap@>=2.0.3 <2.1.0
+238 verbose addNamed ">=2.0.3 <2.1.0" is a valid semver range for asap
+239 silly addNameRange { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: false }
+240 silly mapToRegistry name asap
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry data Result {
+243 silly mapToRegistry   raw: 'asap',
+243 silly mapToRegistry   scope: null,
+243 silly mapToRegistry   escapedName: 'asap',
+243 silly mapToRegistry   name: 'asap',
+243 silly mapToRegistry   rawSpec: '',
+243 silly mapToRegistry   spec: 'latest',
+243 silly mapToRegistry   type: 'tag' }
+244 silly mapToRegistry uri https://registry.npmjs.org/asap
+245 verbose addNameRange registry:https://registry.npmjs.org/asap not in flight; fetching
+246 verbose get https://registry.npmjs.org/asap not expired, no request
+247 silly addNameRange number 2 { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: true }
+248 silly addNameRange versions [ 'asap',
+248 silly addNameRange   [ '0.0.0',
+248 silly addNameRange     '1.0.0',
+248 silly addNameRange     '2.0.0',
+248 silly addNameRange     '2.0.1',
+248 silly addNameRange     '2.0.2',
+248 silly addNameRange     '2.0.3',
+248 silly addNameRange     '2.0.4',
+248 silly addNameRange     '2.0.5' ] ]
+249 silly addNamed asap@2.0.5
+250 verbose addNamed "2.0.5" is a plain semver version for asap
+251 silly cache afterAdd asap@2.0.5
+252 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\asap\2.0.5\package\package.json not in flight; writing
+253 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+254 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\asap\2.0.5\package\package.json written
+255 silly fetchOtherPackageData nextap-base-utility@git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git
+256 silly cache add args [ 'nextap-base-utility@git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+256 silly cache add   null ]
+257 verbose cache add spec nextap-base-utility@git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git
+258 silly fetchNamedPackageData socket.io
+259 silly mapToRegistry name socket.io
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry data Result {
+262 silly mapToRegistry   raw: 'socket.io',
+262 silly mapToRegistry   scope: null,
+262 silly mapToRegistry   escapedName: 'socket.io',
+262 silly mapToRegistry   name: 'socket.io',
+262 silly mapToRegistry   rawSpec: '',
+262 silly mapToRegistry   spec: 'latest',
+262 silly mapToRegistry   type: 'tag' }
+263 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+264 silly fetchNamedPackageData socket.io-client
+265 silly mapToRegistry name socket.io-client
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry data Result {
+268 silly mapToRegistry   raw: 'socket.io-client',
+268 silly mapToRegistry   scope: null,
+268 silly mapToRegistry   escapedName: 'socket.io-client',
+268 silly mapToRegistry   name: 'socket.io-client',
+268 silly mapToRegistry   rawSpec: '',
+268 silly mapToRegistry   spec: 'latest',
+268 silly mapToRegistry   type: 'tag' }
+269 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'nextap-base-utility@git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+270 silly cache add   scope: null,
+270 silly cache add   escapedName: 'nextap-base-utility',
+270 silly cache add   name: 'nextap-base-utility',
+270 silly cache add   rawSpec: 'git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+270 silly cache add   spec: 'git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+270 silly cache add   type: 'hosted',
+270 silly cache add   hosted:
+270 silly cache add    { type: 'bitbucket',
+270 silly cache add      ssh: 'git@bitbucket.org:nextap/base-node.js-utility.git',
+270 silly cache add      sshUrl: 'git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+270 silly cache add      httpsUrl: 'git+https://bitbucket.org/nextap/base-node.js-utility.git',
+270 silly cache add      gitUrl: undefined,
+270 silly cache add      shortcut: 'bitbucket:nextap/base-node.js-utility',
+270 silly cache add      directUrl: 'https://bitbucket.org/nextap/base-node.js-utility/raw/master/package.json' } }
+271 verbose addRemoteGit caching git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git
+272 verbose addRemoteGit git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git is a repository hosted by bitbucket
+273 silly tryClone cloning git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git via git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git
+274 verbose tryClone git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12 not in flight; caching
+275 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+276 verbose request uri https://registry.npmjs.org/socket.io-client
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 16:29:28
+279 verbose etag W/"58f42e2e-2039f"
+280 verbose lastModified Mon, 17 Apr 2017 02:53:34 GMT
+281 http request GET https://registry.npmjs.org/socket.io-client
+282 verbose request uri https://registry.npmjs.org/socket.io
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 16:29:28
+285 verbose etag W/"58f03a75-24c77"
+286 verbose lastModified Fri, 14 Apr 2017 02:56:53 GMT
+287 http request GET https://registry.npmjs.org/socket.io
+288 http 304 https://registry.npmjs.org/socket.io-client
+289 verbose headers { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+289 verbose headers   via: '1.1 varnish',
+289 verbose headers   'cache-control': 'max-age=300',
+289 verbose headers   etag: 'W/"58f42e2e-2039f"',
+289 verbose headers   age: '286',
+289 verbose headers   connection: 'keep-alive',
+289 verbose headers   'x-served-by': 'cache-hhn1546-HHN',
+289 verbose headers   'x-cache': 'HIT',
+289 verbose headers   'x-cache-hits': '7',
+289 verbose headers   'x-timer': 'S1492525768.406332,VS0,VE0',
+289 verbose headers   vary: 'Accept-Encoding' }
+290 silly get cb [ 304,
+290 silly get   { date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+290 silly get     via: '1.1 varnish',
+290 silly get     'cache-control': 'max-age=300',
+290 silly get     etag: 'W/"58f42e2e-2039f"',
+290 silly get     age: '286',
+290 silly get     connection: 'keep-alive',
+290 silly get     'x-served-by': 'cache-hhn1546-HHN',
+290 silly get     'x-cache': 'HIT',
+290 silly get     'x-cache-hits': '7',
+290 silly get     'x-timer': 'S1492525768.406332,VS0,VE0',
+290 silly get     vary: 'Accept-Encoding' } ]
+291 verbose etag https://registry.npmjs.org/socket.io-client from cache
+292 verbose get saving socket.io-client to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\socket.io-client\.cache.json
+293 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+294 silly resolveWithNewModule socket.io-client@1.7.3 checking installable status
+295 silly cache add args [ 'socket.io-client@^1.4.8', null ]
+296 verbose cache add spec socket.io-client@^1.4.8
+297 silly cache add parsed spec Result {
+297 silly cache add   raw: 'socket.io-client@^1.4.8',
+297 silly cache add   scope: null,
+297 silly cache add   escapedName: 'socket.io-client',
+297 silly cache add   name: 'socket.io-client',
+297 silly cache add   rawSpec: '^1.4.8',
+297 silly cache add   spec: '>=1.4.8 <2.0.0',
+297 silly cache add   type: 'range' }
+298 silly addNamed socket.io-client@>=1.4.8 <2.0.0
+299 verbose addNamed ">=1.4.8 <2.0.0" is a valid semver range for socket.io-client
+300 silly addNameRange { name: 'socket.io-client',
+300 silly addNameRange   range: '>=1.4.8 <2.0.0',
+300 silly addNameRange   hasData: false }
+301 silly mapToRegistry name socket.io-client
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry data Result {
+304 silly mapToRegistry   raw: 'socket.io-client',
+304 silly mapToRegistry   scope: null,
+304 silly mapToRegistry   escapedName: 'socket.io-client',
+304 silly mapToRegistry   name: 'socket.io-client',
+304 silly mapToRegistry   rawSpec: '',
+304 silly mapToRegistry   spec: 'latest',
+304 silly mapToRegistry   type: 'tag' }
+305 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+306 verbose addNameRange registry:https://registry.npmjs.org/socket.io-client not in flight; fetching
+307 verbose get https://registry.npmjs.org/socket.io-client not expired, no request
+308 silly addNameRange number 2 { name: 'socket.io-client',
+308 silly addNameRange   range: '>=1.4.8 <2.0.0',
+308 silly addNameRange   hasData: true }
+309 silly addNameRange versions [ 'socket.io-client',
+309 silly addNameRange   [ '0.7.0',
+309 silly addNameRange     '0.7.1',
+309 silly addNameRange     '0.7.2',
+309 silly addNameRange     '0.7.3',
+309 silly addNameRange     '0.7.4',
+309 silly addNameRange     '0.7.5',
+309 silly addNameRange     '0.7.9',
+309 silly addNameRange     '0.7.10',
+309 silly addNameRange     '0.7.11',
+309 silly addNameRange     '0.8.0',
+309 silly addNameRange     '0.8.1',
+309 silly addNameRange     '0.8.2',
+309 silly addNameRange     '0.8.3',
+309 silly addNameRange     '0.8.4',
+309 silly addNameRange     '0.8.5',
+309 silly addNameRange     '0.8.6',
+309 silly addNameRange     '0.8.7',
+309 silly addNameRange     '0.9.0',
+309 silly addNameRange     '0.9.1',
+309 silly addNameRange     '0.9.1-1',
+309 silly addNameRange     '0.9.2',
+309 silly addNameRange     '0.9.3',
+309 silly addNameRange     '0.9.4',
+309 silly addNameRange     '0.9.5',
+309 silly addNameRange     '0.9.6',
+309 silly addNameRange     '0.9.7',
+309 silly addNameRange     '0.9.8',
+309 silly addNameRange     '0.9.9',
+309 silly addNameRange     '0.9.10',
+309 silly addNameRange     '0.9.11',
+309 silly addNameRange     '0.9.15',
+309 silly addNameRange     '0.9.16',
+309 silly addNameRange     '1.0.0-pre',
+309 silly addNameRange     '1.0.0-pre2',
+309 silly addNameRange     '1.0.0-pre3',
+309 silly addNameRange     '1.0.0-pre4',
+309 silly addNameRange     '1.0.0-pre5',
+309 silly addNameRange     '0.9.17',
+309 silly addNameRange     '1.0.1',
+309 silly addNameRange     '1.0.2',
+309 silly addNameRange     '1.0.3',
+309 silly addNameRange     '1.0.4',
+309 silly addNameRange     '1.0.5',
+309 silly addNameRange     '1.0.6',
+309 silly addNameRange     '1.1.0',
+309 silly addNameRange     '1.2.0',
+309 silly addNameRange     '1.2.1',
+309 silly addNameRange     '1.3.0',
+309 silly addNameRange     '1.3.1',
+309 silly addNameRange     '1.3.2',
+309 silly addNameRange     '1.3.3',
+309 silly addNameRange     '1.3.4',
+309 silly addNameRange     '1.3.5',
+309 silly addNameRange     '1.3.6',
+309 silly addNameRange     '1.3.7',
+309 silly addNameRange     '1.4.0',
+309 silly addNameRange     '1.4.1',
+309 silly addNameRange     '1.4.2',
+309 silly addNameRange     '1.4.3',
+309 silly addNameRange     '1.4.4',
+309 silly addNameRange     '1.4.5',
+309 silly addNameRange     '1.4.6',
+309 silly addNameRange     '1.4.7',
+309 silly addNameRange     '1.4.8',
+309 silly addNameRange     '1.5.0',
+309 silly addNameRange     '1.5.1',
+309 silly addNameRange     '1.6.0',
+309 silly addNameRange     '1.7.0',
+309 silly addNameRange     '1.7.1',
+309 silly addNameRange     '1.7.2',
+309 silly addNameRange     '1.7.3' ] ]
+310 silly addNamed socket.io-client@1.7.3
+311 verbose addNamed "1.7.3" is a plain semver version for socket.io-client
+312 info git [ 'config', '--get', 'remote.origin.url' ]
+313 silly cache afterAdd socket.io-client@1.7.3
+314 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\socket.io-client\1.7.3\package\package.json not in flight; writing
+315 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+316 http 200 https://registry.npmjs.org/socket.io
+317 verbose headers { server: 'nginx/1.10.1',
+317 verbose headers   'content-type': 'application/json',
+317 verbose headers   'last-modified': 'Tue, 18 Apr 2017 10:00:08 GMT',
+317 verbose headers   etag: 'W/"58f5e3a8-24c88"',
+317 verbose headers   'content-encoding': 'gzip',
+317 verbose headers   'cache-control': 'max-age=300',
+317 verbose headers   'content-length': '19594',
+317 verbose headers   'accept-ranges': 'bytes',
+317 verbose headers   date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+317 verbose headers   via: '1.1 varnish',
+317 verbose headers   age: '155',
+317 verbose headers   connection: 'keep-alive',
+317 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+317 verbose headers   'x-cache': 'HIT',
+317 verbose headers   'x-cache-hits': '6',
+317 verbose headers   'x-timer': 'S1492525768.409685,VS0,VE0',
+317 verbose headers   vary: 'Accept-Encoding' }
+318 silly get cb [ 200,
+318 silly get   { server: 'nginx/1.10.1',
+318 silly get     'content-type': 'application/json',
+318 silly get     'last-modified': 'Tue, 18 Apr 2017 10:00:08 GMT',
+318 silly get     etag: 'W/"58f5e3a8-24c88"',
+318 silly get     'content-encoding': 'gzip',
+318 silly get     'cache-control': 'max-age=300',
+318 silly get     'content-length': '19594',
+318 silly get     'accept-ranges': 'bytes',
+318 silly get     date: 'Tue, 18 Apr 2017 14:29:28 GMT',
+318 silly get     via: '1.1 varnish',
+318 silly get     age: '155',
+318 silly get     connection: 'keep-alive',
+318 silly get     'x-served-by': 'cache-hhn1530-HHN',
+318 silly get     'x-cache': 'HIT',
+318 silly get     'x-cache-hits': '6',
+318 silly get     'x-timer': 'S1492525768.409685,VS0,VE0',
+318 silly get     vary: 'Accept-Encoding' } ]
+319 verbose get saving socket.io to C:\Users\SickoOrange\AppData\Roaming\npm-cache\registry.npmjs.org\socket.io\.cache.json
+320 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+321 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\socket.io-client\1.7.3\package\package.json written
+322 silly resolveWithNewModule socket.io@1.7.3 checking installable status
+323 silly cache add args [ 'socket.io@^1.4.8', null ]
+324 verbose cache add spec socket.io@^1.4.8
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'socket.io@^1.4.8',
+325 silly cache add   scope: null,
+325 silly cache add   escapedName: 'socket.io',
+325 silly cache add   name: 'socket.io',
+325 silly cache add   rawSpec: '^1.4.8',
+325 silly cache add   spec: '>=1.4.8 <2.0.0',
+325 silly cache add   type: 'range' }
+326 silly addNamed socket.io@>=1.4.8 <2.0.0
+327 verbose addNamed ">=1.4.8 <2.0.0" is a valid semver range for socket.io
+328 silly addNameRange { name: 'socket.io', range: '>=1.4.8 <2.0.0', hasData: false }
+329 silly mapToRegistry name socket.io
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry data Result {
+332 silly mapToRegistry   raw: 'socket.io',
+332 silly mapToRegistry   scope: null,
+332 silly mapToRegistry   escapedName: 'socket.io',
+332 silly mapToRegistry   name: 'socket.io',
+332 silly mapToRegistry   rawSpec: '',
+332 silly mapToRegistry   spec: 'latest',
+332 silly mapToRegistry   type: 'tag' }
+333 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+334 verbose addNameRange registry:https://registry.npmjs.org/socket.io not in flight; fetching
+335 verbose get https://registry.npmjs.org/socket.io not expired, no request
+336 silly addNameRange number 2 { name: 'socket.io', range: '>=1.4.8 <2.0.0', hasData: true }
+337 silly addNameRange versions [ 'socket.io',
+337 silly addNameRange   [ '0.3.8',
+337 silly addNameRange     '0.4.0',
+337 silly addNameRange     '0.4.1',
+337 silly addNameRange     '0.5.1',
+337 silly addNameRange     '0.5.3',
+337 silly addNameRange     '0.6.0',
+337 silly addNameRange     '0.6.1',
+337 silly addNameRange     '0.6.3',
+337 silly addNameRange     '0.6.4',
+337 silly addNameRange     '0.6.5',
+337 silly addNameRange     '0.6.6',
+337 silly addNameRange     '0.6.7',
+337 silly addNameRange     '0.6.8',
+337 silly addNameRange     '0.6.9',
+337 silly addNameRange     '0.6.10',
+337 silly addNameRange     '0.6.11',
+337 silly addNameRange     '0.6.12',
+337 silly addNameRange     '0.6.14',
+337 silly addNameRange     '0.6.15',
+337 silly addNameRange     '0.6.16',
+337 silly addNameRange     '0.6.17',
+337 silly addNameRange     '0.6.18',
+337 silly addNameRange     '0.7.0',
+337 silly addNameRange     '0.7.1',
+337 silly addNameRange     '0.7.2',
+337 silly addNameRange     '0.7.3',
+337 silly addNameRange     '0.7.4',
+337 silly addNameRange     '0.7.5',
+337 silly addNameRange     '0.7.6',
+337 silly addNameRange     '0.7.7',
+337 silly addNameRange     '0.7.8',
+337 silly addNameRange     '0.7.9',
+337 silly addNameRange     '0.7.10',
+337 silly addNameRange     '0.7.11',
+337 silly addNameRange     '0.8.0',
+337 silly addNameRange     '0.8.1',
+337 silly addNameRange     '0.8.2',
+337 silly addNameRange     '0.8.3',
+337 silly addNameRange     '0.8.4',
+337 silly addNameRange     '0.8.5',
+337 silly addNameRange     '0.8.6',
+337 silly addNameRange     '0.8.7',
+337 silly addNameRange     '0.9.0',
+337 silly addNameRange     '0.9.1',
+337 silly addNameRange     '0.9.1-1',
+337 silly addNameRange     '0.9.2',
+337 silly addNameRange     '0.9.3',
+337 silly addNameRange     '0.9.4',
+337 silly addNameRange     '0.9.5',
+337 silly addNameRange     '0.9.6',
+337 silly addNameRange     '0.9.7',
+337 silly addNameRange     '0.9.8',
+337 silly addNameRange     '0.9.9',
+337 silly addNameRange     '0.9.10',
+337 silly addNameRange     '0.9.11',
+337 silly addNameRange     '0.9.12',
+337 silly addNameRange     '0.9.13',
+337 silly addNameRange     '0.9.14',
+337 silly addNameRange     '0.9.15',
+337 silly addNameRange     '0.9.16',
+337 silly addNameRange     '1.0.0-pre',
+337 silly addNameRange     '1.0.0-pre2',
+337 silly addNameRange     '1.0.0-pre3',
+337 silly addNameRange     '1.0.0-pre4',
+337 silly addNameRange     '1.0.0-pre5',
+337 silly addNameRange     '0.9.17',
+337 silly addNameRange     '1.0.0',
+337 silly addNameRange     '1.0.1',
+337 silly addNameRange     '1.0.2',
+337 silly addNameRange     '1.0.3',
+337 silly addNameRange     '1.0.4',
+337 silly addNameRange     '1.0.5',
+337 silly addNameRange     '1.0.6',
+337 silly addNameRange     '1.1.0',
+337 silly addNameRange     '1.2.0',
+337 silly addNameRange     '1.2.1',
+337 silly addNameRange     '1.3.0',
+337 silly addNameRange     '1.3.1',
+337 silly addNameRange     '1.3.2',
+337 silly addNameRange     '1.3.3',
+337 silly addNameRange     '1.3.4',
+337 silly addNameRange     '1.3.5',
+337 silly addNameRange     '1.3.6',
+337 silly addNameRange     '1.3.7',
+337 silly addNameRange     '1.4.0',
+337 silly addNameRange     '1.4.1',
+337 silly addNameRange     '1.4.2',
+337 silly addNameRange     '1.4.3',
+337 silly addNameRange     '1.4.4',
+337 silly addNameRange     '1.4.5',
+337 silly addNameRange     '1.4.6',
+337 silly addNameRange     '1.4.7',
+337 silly addNameRange     '1.4.8',
+337 silly addNameRange     '1.5.0',
+337 silly addNameRange     '1.5.1',
+337 silly addNameRange     '1.6.0',
+337 silly addNameRange     '1.7.0',
+337 silly addNameRange     '1.7.1',
+337 silly addNameRange     '1.7.2',
+337 silly addNameRange     '1.7.3' ] ]
+338 silly addNamed socket.io@1.7.3
+339 verbose addNamed "1.7.3" is a plain semver version for socket.io
+340 silly cache afterAdd socket.io@1.7.3
+341 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\socket.io\1.7.3\package\package.json not in flight; writing
+342 verbose correctMkdir C:\Users\SickoOrange\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+343 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+343 warn addRemoteGit
+343 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:206:12)
+343 warn addRemoteGit     at emitTwo (events.js:106:13)
+343 warn addRemoteGit     at ChildProcess.emit (events.js:191:7)
+343 warn addRemoteGit     at maybeClose (internal/child_process.js:877:16)
+343 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:334:11)
+343 warn addRemoteGit     at emitOne (events.js:96:13)
+343 warn addRemoteGit     at Socket.emit (events.js:188:7)
+343 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:498:12)
+343 warn addRemoteGit  git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git resetting remote C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12 because of error: { Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+343 warn addRemoteGit
+343 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:206:12)
+343 warn addRemoteGit     at emitTwo (events.js:106:13)
+343 warn addRemoteGit     at ChildProcess.emit (events.js:191:7)
+343 warn addRemoteGit     at maybeClose (internal/child_process.js:877:16)
+343 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:334:11)
+343 warn addRemoteGit     at emitOne (events.js:96:13)
+343 warn addRemoteGit     at Socket.emit (events.js:188:7)
+343 warn addRemoteGit     at Pipe._handle.close [as _onclose] (net.js:498:12)
+343 warn addRemoteGit   killed: false,
+343 warn addRemoteGit   code: 1,
+343 warn addRemoteGit   signal: null,
+343 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+344 info resetRemote resetting C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12 for git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git
+345 silly gentlyRm C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12 is being purged
+346 verbose gentlyRm don't care about contents; nuking C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+347 silly vacuum-fs purging C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+348 silly vacuum-fs quitting because other entries in C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes
+349 verbose afterAdd C:\Users\SickoOrange\AppData\Roaming\npm-cache\socket.io\1.7.3\package\package.json written
+350 info git [ 'clone',
+350 info git   '--template=C:\\Users\\SickoOrange\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+350 info git   '--mirror',
+350 info git   'ssh://git@bitbucket.org/nextap/base-node.js-utility.git',
+350 info git   'C:\\Users\\SickoOrange\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12' ]
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12: Cloning into bare repository 'C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12'...
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12: Host key verification failed.
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12: fatal: Could not read from remote repository.
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12:
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12: Please make sure you have the correct access rights
+351 error git clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12: and the repository exists.
+352 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+352 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12'...
+352 silly fetchPackageMetaData Host key verification failed.
+352 silly fetchPackageMetaData fatal: Could not read from remote repository.
+352 silly fetchPackageMetaData
+352 silly fetchPackageMetaData Please make sure you have the correct access rights
+352 silly fetchPackageMetaData and the repository exists.
+352 silly fetchPackageMetaData
+352 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+352 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+352 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+352 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+352 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+352 silly fetchPackageMetaData  error for nextap-base-utility@git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+352 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12'...
+352 silly fetchPackageMetaData Host key verification failed.
+352 silly fetchPackageMetaData fatal: Could not read from remote repository.
+352 silly fetchPackageMetaData
+352 silly fetchPackageMetaData Please make sure you have the correct access rights
+352 silly fetchPackageMetaData and the repository exists.
+352 silly fetchPackageMetaData
+352 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+352 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+352 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+352 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+352 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+352 silly fetchPackageMetaData   killed: false,
+352 silly fetchPackageMetaData   code: 128,
+352 silly fetchPackageMetaData   signal: null,
+352 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\SickoOrange\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\\Users\\SickoOrange\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12' }
+353 silly rollbackFailedOptional Starting
+354 silly rollbackFailedOptional Finishing
+355 silly runTopLevelLifecycles Finishing
+356 silly install printInstalled
+357 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+357 verbose stack Cloning into bare repository 'C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12'...
+357 verbose stack Host key verification failed.
+357 verbose stack fatal: Could not read from remote repository.
+357 verbose stack
+357 verbose stack Please make sure you have the correct access rights
+357 verbose stack and the repository exists.
+357 verbose stack
+357 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
+357 verbose stack     at emitTwo (events.js:106:13)
+357 verbose stack     at ChildProcess.emit (events.js:191:7)
+357 verbose stack     at maybeClose (internal/child_process.js:877:16)
+357 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+358 verbose cwd E:\LightUI\lightui\src
+359 error Windows_NT 10.0.14393
+360 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "moment"
+361 error node v6.10.0
+362 error npm  v3.10.10
+363 error code 128
+364 error Command failed: git -c core.longpaths=true clone --template=C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror ssh://git@bitbucket.org/nextap/base-node.js-utility.git C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12
+364 error Cloning into bare repository 'C:\Users\SickoOrange\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-bitbucket-org-nextap-base-node-js-utility-git-ba57cd12'...
+364 error Host key verification failed.
+364 error fatal: Could not read from remote repository.
+364 error
+364 error Please make sure you have the correct access rights
+364 error and the repository exists.
+365 error If you need help, you may report this error at:
+365 error     <https://github.com/npm/npm/issues>
+366 verbose exit [ 1, true ]

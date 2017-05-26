@@ -1,0 +1,24 @@
+.MenuBoard {
+  text-align: center;
+}
+
+.MenuBoard-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.MenuBoard-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.MenuBoard-intro {
+  font-size: large;
+}
+
+@keyframes MenuBoard-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

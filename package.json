@@ -10,7 +10,7 @@
     "forever": "0.15.2",
     "fs": "^0.0.2",
     "moment": "^2.11.2",
-    "nextap-base-utility": "git+ssh://git@bitbucket.org/nextap/base-node.js-utility.git",
+    "nextap-base-utility": "git+ssh://git@bitbucket.org/ertecotechnologies/base-node.js-utility.git",
     "path": "^0.12.7",
     "promise": "^7.1.1",
     "request": "^2.74.0",
@@ -18,7 +18,7 @@
     "serve-static": "^1.10.2",
     "socket.io-client": "^1.4.8",
     "strftime": "^0.9.2",
-    "socketmodule": "git+ssh://git@bitbucket.org/nextap/socketmodule.git"
+    "socketmodule": "git+ssh://git@bitbucket.org/ertecotechnologies/socket-module.git"
   },
   "devDependencies": {},
   "scripts": {
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/nextap/lights-ui-framework.git"
+    "url": "git+https://bitbucket.org/ertecotechnologies/lights-ui-framework.git"
   },
   "author": "nextap solutions s.r.o.",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/nextap/lights-ui-framework#readme"
+  "homepage": "https://bitbucket.org/ertecotechnologies/lights-ui-framework#readme"
 }
